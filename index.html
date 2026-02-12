@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Set — Minimalist Strength Training Log</title>
+  <meta name="description" content="Log your lifts fast. Track 1RM progression. No noise, no social, no tracking. Just the work.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Set — Minimalist Strength Training Log">
+  <meta property="og:description" content="Log your lifts fast. Track 1RM progression. No noise, no social, no tracking.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/splash.png">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" href="assets/logo.png">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-header__logo">
+        <img src="assets/logo.png" alt="Set" width="34" height="34">
+      </a>
+      <nav class="site-header__nav">
+        <a href="/privacy">Privacy</a>
+        <a href="/support">Support</a>
+        <a href="/terms">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__content">
+        <img src="assets/logo.png" alt="" class="hero__logo" width="88" height="88" aria-hidden="true">
+        <h1 class="hero__title">Just log the work<span class="dot">.</span></h1>
+        <p class="hero__subtitle">
+          The minimalist strength-training log.<br>
+          Fast capture. Real progression. Zero noise.
+        </p>
+        <a href="#" class="btn-appstore">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+          </svg>
+          Download on the App Store
+        </a>
+        <p class="hero__note">Free during beta. No ads, ever.</p>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <span class="line"></span>
+      </div>
+    </section>
+
+    <!-- Phone Showcase -->
+    <section class="showcase">
+      <div class="container">
+        <div class="showcase__header reveal">
+          <h2>Everything you need.<br>Nothing you don't.</h2>
+          <p>Four screens, zero clutter. Built for lifters who care about the numbers.</p>
+        </div>
+        <div class="showcase__grid">
+          <div class="showcase__item reveal reveal-delay-1">
+            <div class="phone-frame">
+              <div class="phone-screen">
+                <img src="assets/screenshots/IMG_7365.PNG" alt="Lifts dashboard showing Back Squat and Deadlift PRs" loading="lazy">
+              </div>
+            </div>
+            <div class="showcase__caption">
+              <h3>Your lifts at a glance</h3>
+              <p>PRs and estimated maxes</p>
+            </div>
+          </div>
+          <div class="showcase__item reveal reveal-delay-2">
+            <div class="phone-frame">
+              <div class="phone-screen">
+                <img src="assets/screenshots/IMG_7366.PNG" alt="Natural language workout logging with dictate and import options" loading="lazy">
+              </div>
+            </div>
+            <div class="showcase__caption">
+              <h3>Log in plain English</h3>
+              <p>Type, dictate, or import</p>
+            </div>
+          </div>
+          <div class="showcase__item reveal reveal-delay-3">
+            <div class="phone-frame">
+              <div class="phone-screen">
+                <img src="assets/screenshots/IMG_7367.PNG" alt="OCR processing a whiteboard photo to calculate session percentages" loading="lazy">
+              </div>
+            </div>
+            <div class="showcase__caption">
+              <h3>Snap a whiteboard</h3>
+              <p>OCR reads your percentages</p>
+            </div>
+          </div>
+          <div class="showcase__item reveal reveal-delay-4">
+            <div class="phone-frame">
+              <div class="phone-screen">
+                <img src="assets/screenshots/IMG_7368.PNG" alt="Session percentage results showing exact weights for each set" loading="lazy">
+              </div>
+            </div>
+            <div class="showcase__caption">
+              <h3>Know your numbers</h3>
+              <p>Exact weights from your 1RM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+      <div class="container">
+        <div class="features__header reveal">
+          <h2>Built different.</h2>
+          <p>No social feeds. No content walls. Just the tools that matter.</p>
+        </div>
+        <div class="features__grid">
+          <div class="feature-card reveal reveal-delay-1">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+              </svg>
+            </div>
+            <h3>Fast Capture</h3>
+            <p>Type it. Say it. Snap it. Natural language parsing, voice dictation, and camera OCR. Log your sets however works for you.</p>
+          </div>
+          <div class="feature-card reveal reveal-delay-2">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+              </svg>
+            </div>
+            <h3>Lift Intelligence</h3>
+            <p>Auto-estimated 1RM from qualifying sets. Rep max tables, trend charts, and percentage breakdowns computed from your real data.</p>
+          </div>
+          <div class="feature-card reveal reveal-delay-3">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3>Privacy First</h3>
+            <p>All data stored locally on your device. Optional iCloud sync across your own devices. No accounts, no analytics, no ads.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+      <div class="container">
+        <div class="how-it-works__header reveal">
+          <h2>Three steps. Zero friction.</h2>
+          <p>From barbell to data in seconds.</p>
+        </div>
+        <div class="steps">
+          <div class="step reveal reveal-delay-1">
+            <div class="step__number">1</div>
+            <h3>Enter your sets</h3>
+            <p>Type naturally, dictate, or snap a photo of your programming.</p>
+          </div>
+          <div class="step reveal reveal-delay-2">
+            <div class="step__number">2</div>
+            <h3>Set does the math</h3>
+            <p>Movements are parsed, weights structured, 1RMs estimated automatically.</p>
+          </div>
+          <div class="step reveal reveal-delay-3">
+            <div class="step__number">3</div>
+            <h3>Track your progress</h3>
+            <p>See PRs, trends, and percentage tables across all your lifts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="container">
+        <h2 class="reveal">Built for numbers,<br>not likes.</h2>
+        <p class="cta-subtitle reveal reveal-delay-1">No ads. No tracking. No social features. Just a clean log for lifters who do the work.</p>
+        <div class="reveal reveal-delay-2">
+          <a href="#" class="btn-appstore">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+            </svg>
+            Download on the App Store
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__left">
+        <a href="/" class="site-footer__logo">
+          <img src="assets/logo.png" alt="Set" width="24" height="24">
+        </a>
+        <span class="site-footer__copy">&copy; 2026 Set</span>
+      </div>
+      <nav class="site-footer__links">
+        <a href="/privacy">Privacy</a>
+        <a href="/support">Support</a>
+        <a href="/terms">Terms</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
