@@ -264,6 +264,9 @@ section {
   color: var(--color-text-muted);
   margin-top: var(--space-md);
   font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* App Store Button */
