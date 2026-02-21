@@ -351,9 +351,9 @@ section {
 
 .showcase__grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: var(--space-2xl);
-  max-width: 1060px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: var(--space-xl);
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 var(--space-lg);
 }
@@ -772,6 +772,7 @@ section {
 .reveal-delay-2 { transition-delay: 0.2s; }
 .reveal-delay-3 { transition-delay: 0.3s; }
 .reveal-delay-4 { transition-delay: 0.4s; }
+.reveal-delay-5 { transition-delay: 0.5s; }
 
 /* ----------------------------------------
    Responsive
